@@ -1,6 +1,6 @@
 #!/usr/bin/env bash -vx
-mkdir my_first_repository
-cd my_first_repository
+mkdir first_repository
+cd first_repository
 
 clear
 # "Configuring"
@@ -8,6 +8,7 @@ clear
 # git config --global user.email "vlad@tran.sylvan.ia"
 # git config --global color.ui "auto"
 # git config --global core.editor "nano"
+# export EDITOR=nano
 read
 
 clear
@@ -94,7 +95,7 @@ clear
 git rm pluto.txt
 git status
 read
-git commit -m "No longer a planet..."
+git commit -m "Pluto is no longer a planet..."
 read
 git log
 read
@@ -135,7 +136,7 @@ cd server_repository
 read
 git init --bare
 read
-cd ../my_first_repository
+cd ../first_repository
 git remote add origin ../server_repository
 read
 git push --set-upstream origin master
@@ -145,13 +146,13 @@ clear
 # "Cloning the 'remote' repository"
 cd ..
 read
-git clone server_repository client2
-cd client2
+git clone server_repository second_repository
+cd second_repository
 read
 git status
 read
 # "Adding new file from this second directory"
-echo "In directory client2" > jupiter.txt
+echo "In directory second_repository" > jupiter.txt
 read
 git add jupiter.txt
 read
@@ -164,7 +165,7 @@ read
 
 clear
 # "Getting these changes from the first directory"
-cd ../my_first_repository
+cd ../first_repository
 git status
 read
 ls -l
@@ -180,9 +181,47 @@ read
 
 clear
 # "Working with branches"
-git branch
+git branch -a
+read
+git branch featureX
 read
 git branch -a
+read
+git status
+read
+git checkout featureX
+read
+git status
+read
+echo "This will be a great new feature," >> mars.txt
+echo "let's call it 'X'" >> mars.txt
+git add mars.txt
+git commit -m "Started working on feature X"
+read 
+git log
+read
+git checkout master
+read
+git log
+read
+tail mars.txt
+read
+echo "Meanwhile, on jupiter..." >> jupiter.txt
+git add jupiter.txt
+git commit -m "working on master in parallel..."
+read
+git log
+read 
+git checkout featureX
+read
+git merge master -m "Merge branch 'master' into featureX"
+read
+git log
+read
+
+# Either delete the branch or push it to the remote repository:
+# git push origin featureX
+# git branch -d featureX
 read
 
 
