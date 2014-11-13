@@ -189,6 +189,7 @@ git branch -a
 read
 git status
 read
+clear
 git checkout featureX
 read
 git status
@@ -200,6 +201,7 @@ git commit -m "Started working on feature X"
 read 
 git log
 read
+clear
 git checkout master
 read
 git log
@@ -218,6 +220,7 @@ git merge master -m "Merge branch 'master' into featureX"
 read
 git log
 read
+clear
 
 # Either delete the branch or push it to the remote repository:
 # git push origin featureX
