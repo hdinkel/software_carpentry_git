@@ -7,3 +7,10 @@
 .reveal h1 {
     font-size: 1.3em;
 }
+
+.small {
+    font-size: 0.7em;
+}
+.reveal .small {
+    font-size: 0.7em;
+}
