@@ -1,0 +1,9 @@
+.reveal section p {
+    display: inline-block;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    vertical-align: top;
+}
+.reveal h1 {
+    font-size: 1.3em;
+}
