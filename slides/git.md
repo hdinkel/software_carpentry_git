@@ -1,21 +1,21 @@
 % Version Control with Git
-% Holger Dinkel (based on work of Luis Pedro Coelho)
+% Holger Dinkel 
+% (based on work of Luis Pedro Coelho)
 
 ---
 output:
 revealjs::revealjs_presentation:
-theme: league
+theme: solarized
 highlight: pygments
 center: true
 reveal_options:
-    slideNumber: true
-    previewLinks: true
-    controls: true
-    self_contained: true
-    reveal_plugins: [“zoom”, “search”, "chalkboard"]
-    chalkboard:
-      theme: whiteboard
-      toggleNotesButton: false
+fig_width: 10
+slideNumber: true
+previewLinks: true
+controls: true
+self_contained: true
+reveal_plugins: [“zoom”, “search”, "chalkboard"]
+toggleNotesButton: false
 css: git_slides.css 
 
 ---
@@ -23,24 +23,26 @@ css: git_slides.css
 Version Control with Git
 ========================
 
-Over the next hour, we will introduce you to version control with Git.
 Version control is:
 
-1.  A record of what you and your collaborators have done,
-2.  A way to see what's changed, and
-3.  A way to "blame" people for what they did.
+::: incremental
+
+1.  A record of what you & your collaborators have done,
+2.  A way to see what's changed
+3.  A way to get back to different versions
+
+:::
 
 What It Is
 ==========
+
+::: incremental
 
 -   A way to store and synchronize code (or any files).
 -   Documents collections of changes *upon your request*.
 -   Keeps your work safe and up-to-date *across machines*!
 
-The important thing is the general concept of version control, but we
-are using Git because it has become the standard among open-source
-developers, and strong hosting options are available (GitHub, gitlab and
-BitBucket).
+:::
 
 A common approach...
 =====================
@@ -54,6 +56,21 @@ A common approach...
 ---
 
 ![](phd101212s-versions.gif){ width=75% }
+
+
+Do's & Don'ts
+=============
+Do use git for
+
+- textfiles
+- documents
+- configuration files
+
+Do *NOT* use git for:
+
+- passwords
+- large files
+- heavily changing files
 
 
 Basic Version Control
@@ -99,7 +116,7 @@ Git solves a lot of problems at once
 
 -   A record of what you and your collaborators have done
 -   A way to see what's changed
--   A way to "blame" people for what they did
+-   A way to go "back in time" to previous versions
 
 Two step process
 ==============
@@ -155,10 +172,8 @@ Syllabus
 3.  Adding and committing your work
 4.  Working with remote repositories
 5.  Making "clones"
-
-If time permits:
-
 6.  Looking at history with diff and log
 7.  Pushing your work back to a remote
 8.  Pulling updates from a remote
+9.  Collaborating together
 

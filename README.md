@@ -1,6 +1,6 @@
 # Schedule / Order
 
-- REMINDER: (ALL) create github account
+- [ ] REMINDER: (ALL) create github account
 - [ ] (ME) presentation
 - [ ] (ME) demo create repository
 - [ ] (ME) demo add files in github, look at history
@@ -12,7 +12,9 @@
 - [ ] (ME)/(ALL) git config --global user.email "firstname.lastname@mail.xy"
 - [ ] (ME) git status
 - [ ] (ME) git log
-- [ ] (ME) demo adding empty directory doesn't do much to git
 - [ ] (ALL) answer questions in http://swcarpentry.github.io/git-novice/04-changes/index.html
+- [ ] (ME) present "staging area"
 - [ ] (ME) history (add/edit file, diff)
 - [ ] (ALL) history (add/edit file, diff)
+- [ ] (ME) demo adding empty directory doesn't do much to git
+- [ ] (ME) explain HEAD, git checkout HEAD file (mention HEAD~1)
