@@ -156,12 +156,12 @@ Branching
 ![](advance-testing.png){width=75%}\
 (from [git-scm.com/book](git-scm.com/book))
 
-github  / gitlab
+github / gitlab
 ===============
 
-- github used to be free, now owned by MS
-- pro's / con's
-- size limitations
+- github used to be individual company, now owned by Microsoft
+- other options (eg. gitlab) / pro's / con's
+- repositories have size limitations
 - huge database of source-code -> use the search function
 
 Syllabus
