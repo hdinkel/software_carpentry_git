@@ -121,12 +121,12 @@ Git solves a lot of problems at once
 Two step process
 ==============
 
-![](repo_single.svg)
+![](repo_single.svg){ width=75% }
 
 Git repositories
 ================
 
-![](repo_distributed.svg)
+![](repo_distributed.svg){ width=75% }
 
 Informative commit messages
 ===========================
