@@ -18,3 +18,9 @@
 - [ ] (ALL) history (add/edit file, diff)
 - [ ] (ME) demo adding empty directory doesn't do much to git
 - [ ] (ME) explain HEAD, git checkout HEAD file (mention HEAD~1)
+- [ ] (ME) explain gitignore
+- [ ] (ME) show how to add collaborators
+- [ ] (ALL) add collaborators, add to each others repos
+- [ ] (ME) explain conflicts
+- [ ] (ME) mention github comments
+- [ ] (ME) mention pull requests
