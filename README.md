@@ -12,6 +12,8 @@
 - [X] (ME)/(ALL) git config --global user.email "firstname.lastname@mail.xy"
 - [X] (ME) git status
 - [X] (ME) git log
+- [ ] (ME) mention typing
+- [ ] (ME) show github search
 - [ ] (ME) history (add/edit file, diff)
 - [ ] (ME) present "staging area"
 - [ ] (ALL) history (add/edit file, diff)
