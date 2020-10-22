@@ -55,7 +55,7 @@ A common approach...
 
 ---
 
-![](phd101212s-versions.gif){ width=75% }
+![](phd101212s-versions.png){ width=75% }
 
 
 Do's & Don'ts
@@ -121,12 +121,12 @@ Git solves a lot of problems at once
 Two step process
 ==============
 
-![](repo_single.svg){ width=75% }
+![](repo_single.png){ width=75% }
 
 Git repositories
 ================
 
-![](repo_distributed.svg){ width=75% }
+![](repo_distributed.png){ width=75% }
 
 Informative commit messages
 ===========================
